@@ -15,4 +15,36 @@ public class Player {
     private String name;
 
     private Profession profession;
+
+    protected Player() {
+    }
+
+    public Player(String name, Profession profession){
+        this.name = name;
+        this.profession = profession;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Profession getProfession() {
+        return profession;
+    }
+
+    public void setProfession(Profession profession) {
+        this.profession = profession;
+    }
 }
