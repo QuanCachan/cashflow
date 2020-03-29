@@ -1,4 +1,4 @@
-package com.example.cashflow.domain;
+package com.example.cashflow.model;
 
 public enum Profession {
     AIRLINE_PILOT("airline pilot", 9500, 6000, 2500),

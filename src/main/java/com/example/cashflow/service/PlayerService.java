@@ -1,6 +1,6 @@
-package com.example.cashflow.services;
+package com.example.cashflow.service;
 
-import com.example.cashflow.domain.Player;
+import com.example.cashflow.model.Player;
 
 import java.util.List;
 import java.util.Optional;

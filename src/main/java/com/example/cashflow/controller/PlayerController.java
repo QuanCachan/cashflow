@@ -1,6 +1,6 @@
 package com.example.cashflow.controller;
 
-import com.example.cashflow.services.PlayerService;
+import com.example.cashflow.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.example.cashflow.domain;
+package com.example.cashflow.model;
 
 import org.junit.Assert;
 import org.junit.Test;

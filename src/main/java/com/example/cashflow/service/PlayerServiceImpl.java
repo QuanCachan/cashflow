@@ -1,8 +1,7 @@
-package com.example.cashflow.services;
+package com.example.cashflow.service;
 
-import com.example.cashflow.domain.Player;
-import com.example.cashflow.repositories.PlayerRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.cashflow.model.Player;
+import com.example.cashflow.repository.PlayerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
