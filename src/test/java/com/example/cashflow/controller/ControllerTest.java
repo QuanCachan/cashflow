@@ -12,14 +12,14 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class HelloControllerTest {
+public class ControllerTest {
 
     @Autowired
     private MockMvc mvc;
 
     @Test
     public void greeting() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.get("/cashflow").accept(MediaType.APPLICATION_JSON))
+        mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
                                             .andExpect(status().isOk());
 
     }
