@@ -14,6 +14,10 @@ public class PlayerServiceImpl implements PlayerService {
 
     private PlayerRepository playerRepository;
 
+    public PlayerServiceImpl(PlayerRepository playerRepository) {
+        this.playerRepository = playerRepository;
+    }
+
     @Override
     public List<Player> getAll() {
         List<Player> players = new ArrayList<>();
